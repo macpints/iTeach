@@ -1,0 +1,170 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iTeach - log in or sign up</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <style>
+      .container{
+          width: 580px;
+          margin: 0 auto;
+      }
+  </style>
+</head>
+<body>
+
+   <header>
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img src="favicon.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+           iTeach
+          </a>
+          
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-primary" type="submit">Search</button>
+        </form>
+      </div>
+</nav>
+   </header>
+    <!--GRID START-->
+    <div class="container">
+      <form class="row g-3" style="margin-top: 30px;">
+        <div class="col-md-4">
+          <label for="inputFirstName" class="form-label">First Name</label>
+          <input type="text" class="form-control" id="inputFirstName">
+        </div>
+        <div class="col-md-4">
+          <label for="inputMiddleName" class="form-label">Middle Name</label>
+          <input type="text" class="form-control" id="inputMiddleName">
+        </div>
+        <div class="col-md-4">
+          <label for="inputLastName" class="form-label">Last Name</label>
+          <input type="text" class="form-control" id="inputLastName">
+        </div>
+
+        <div class="col-md-2">
+            <label for="inputState" class="form-label">Birth Day</label>
+            <select id="inputState" class="form-select">
+              <option selected>01</option>
+              <option>02</option>
+              <option>03</option>
+              <option>04</option>
+              <option>05</option>
+              <option>06</option>
+              <option>07</option>
+              <option>08</option>
+              <option>09</option>
+              <option>10</option>
+              <option>11</option>
+              <option>12</option>
+              <option>13</option>
+              <option>14</option>
+              <option>15</option>
+              <option>16</option>
+              <option>17</option>
+              <option>18</option>
+              <option>19</option>
+              <option>20</option>
+              <option>21</option>
+              <option>22</option>
+              <option>23</option>
+              <option>24</option>
+              <option>25</option>
+              <option>26</option>
+              <option>27</option>
+              <option>28</option>
+              <option>30</option>
+              <option>31</option>
+            </select>
+          </div>
+        
+        <div class="col-md-3">
+            <label for="inputState" class="form-label">Birth Month</label>
+            <select id="inputState" class="form-select">
+              <option selected>January</option>
+              <option>February</option>
+              <option>March</option>
+              <option>April</option>
+              <option>May</option>
+              <option>June</option>
+              <option>July</option>
+              <option>August</option>
+              <option>September</option>
+              <option>October</option>
+              <option>November</option>
+              <option>December</option>
+            </select>
+        </div>
+
+        <div class="col-md-3">
+            <label for="inputState" class="form-label">Birth Year</label>
+            <select id="inputState" class="form-select">
+              <option selected>2022</option>
+              <option>2021</option>
+              <option>2020</option>
+              <option>2019</option>
+              <option>2018</option>
+              <option>2017</option>
+              <option>2016</option>
+              <option>2015</option>
+              <option>2014</option>
+              <option>2013</option>
+              <option>2012</option>
+              
+            </select>
+        </div>
+
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Password</label>
+            <input type="password" class="form-control" id="inputPassword4">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Address</label>
+            <input type="text" class="form-control" id="inputAddress">
+          </div>
+          
+          <div class="col-md-4">
+            <label for="inputAccountType" class="form-label" >Account Type</label>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1">
+              <label class="form-check-label" for="gridRadios1">
+                Student
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+              <label class="form-check-label" for="gridRadios2">
+                Teacher
+              </label>
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Sign up</button><br>
+            <a href="sign in.html">Already have an account?</a>
+          </div>
+        </form>
+  </div>
+        <!--GRID END-->
+
+        <div class="container">
+            <footer class="py-3 my-4">
+              <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-muted">Contact</a></li>
+                <li class="nav-item"><a href="feedback.html" class="nav-link px-2 text-muted">Feedback</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link px-2 text-muted">About</a></li>
+              </ul>
+              <p class="text-center text-muted">&copy; 2020 iTeach, Inc</p>
+            </footer>
+          </div>
+
+    </body>
+</html>
